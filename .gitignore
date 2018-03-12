@@ -1,0 +1,16 @@
+# tex
+*.aux
+*.dvi
+*.log
+*.toc
+*.blg
+*.bbl
+*.glo
+*.glg
+*.gls
+*.out
+*.xdy
+*.xbb
+*.synctex.gz
+*~
+*#
