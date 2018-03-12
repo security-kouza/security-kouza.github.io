@@ -2,13 +2,11 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-
-<title>岡本・阿部研究室</title>
+<title>阿部・ティブシ研究室</title>
 <meta name="viewport" content="width=device-width">
 <meta name="copyright" content="Template Party">
-<meta name="description" content="岡本・阿部研究室のページ">
-<meta name="keywords" content="京都大学,情報学研究科,社会情報学専攻,岡本龍明,阿部正幸,ティブシメディ,情報セキュリティ,暗号,cryptography">
-
+<meta name="description" content="阿部・ティブシ研究室のページ">
+<meta name="keywords" content="京都大学,情報学研究科,社会情報学専攻,阿部正幸,ティブシメディ,情報セキュリティ,暗号,cryptography">
 <link rel="stylesheet" href="css/style.css">
 <link href="css/style-s.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
 <link href="css/style-m.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:800px)">
@@ -16,22 +14,29 @@
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <style>
 #main h1 {
-	background: #b3b3b3 url(images/bg1.png);
+	background: #1a1a1a url(images/bg1.png);
 }
 nav#mainmenu ul li a {
-	background: #FFF url(images/arrow1.png) no-repeat 10px center;
+	background: #000 url(images/arrow1.png) no-repeat 10px center;
 }
 </style>
 <![endif]-->
+<script type="text/javascript" src="js/openclose.js"></script>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script>
+$(function(){
+  $("#header").load("base/header.html");
+  $("#side").load("base/side.html");
+  $("#footer").load("base/footer.html");
+});
+</script> 
 </head>
 
 <body>
 
 <div id="container">
 
-<header>
-<h1><a href="index.html"><img src="images/logo_okamoto.png" width="230"  alt=""></a></h1>
-</header>
+<header id="header"></header>
 
 <div id="contents">
 
@@ -40,7 +45,14 @@ nav#mainmenu ul li a {
 <section>
 <h1>研究成果</h1>
 <p>
-
+<p><strong class="color1">■2018年</strong><br />
+・Akira Takahashi, Mehdi Tibouchi, Masayuki Abe, and Tatsuaki Okamoto.
+"A Fault Attack against the qDSA Signature Scheme over the Kummer
+Quotient of Curve25519", SCIS 2018. <br>
+<p><strong class="color1">■2017年</strong><br />
+・Akira Takahashi, Mehdi Tibouchi, Masayuki Abe, and Tatsuaki Okamoto.
+"Optimizing Bleichenbacher's Attack on Schnorr-Type Signatures with Barely
+Biased Nonces", IEICE ISEC Dec. 2017. <a href="http://www.ieice.org/ken/paper/20171222t1Ag/eng/">[IEICE]</a><br>
 <p><strong class="color1">■2016年</strong><br />
 ・Ryo Hiromasa, Masayuki Abe, Tatsuaki Okamoto
 "Packing Messages and Optimizing Bootstrapping in GSW-FHE", IEICE Transactions 99-A(1). <a href="http://search.ieice.org/bin/summary.php?id=e99-a_1_73">[IEICE]</a><br>
@@ -118,7 +130,7 @@ IEICE Transactions on Fundamentals, Vol.E96-A, No.1, pp.68-75, (Jan. 2013) <a hr
 
 ・Susumu Kiyoshima, Yoshifumi Manabe, Tatsuaki Okamoto
 "Efficient Concurrent Oblivious Transfer in Super-Polynomial-Simulation Security",
-IWSEC2012, LNCS Vol 7631, pp.216-232 (Nov. 2012) <a href="paper/iwsec2012_kiyoshima.pdf">[pdf]</a><br>
+IWSEC2012, LNCS Vol 7631, pp.216-232 (Nov. 2012) <a href="paper/iwsec2012_kiyoshima.pdf">[pdf]</a><br> <font color="red">[Best Student Paper Award]</font>
 
 
 <p><strong class="color1">■2011年</strong><br />
@@ -274,45 +286,23 @@ CITSA 2004，Florida，USA，2004.<br>
 </div>
 <!--/main-->
 
-<div id="sub">
-
-<nav id="mainmenu">
-<ul>
-<li><a href="index.html">ホーム</a></li>
-<li><a href="about.html">研究成果</a></li>
-<li><a href="member.html">メンバー</a></li>
-<li><a href="link.html">リンク</a></li>
-<li><a href="contact.html">お問い合わせ</a></li>
-</ul>
-</nav>
-
-<aside class="box1 mb1em">
-<h1 class="mb1em">アクセス</h1>
-<p class="mini1">
-〒606-8501<br>
-京都市左京区吉田本町<br>
-京都大学大学院情報学研究科<br>
-社会情報学専攻　情報セキュリティ分野<br>
-岡本研究室（連携分野）<br>
-TEL：075-753-5398<br></p>
-</aside>
-
-
-</div>
-<!--/sub-->
+<div id="side"></div>
 
 <p id="pagetop"><a href="#">↑ PAGE TOP</a></p>
 
 </div>
 <!--/contents-->
 
-<footer>
-<small>Copyright&copy; 2014 <a href="index.html">Okamoto/Abe Lab.</a>　All Rights Reserved.</small>
-<span class="pr"><a href="http://template-party.com/" target="_blank">Web Design:Template-Party</a></span>
-</footer>
+<div id="footer"></div>
 
 </div>
 <!--/container-->
 
+<script type="text/javascript">
+// 表示の幅で設定・PCはウィンドウサイズを反映 */
+if (OCwindowWidth() < 480) {
+	open_close("newinfo_hdr", "newinfo");
+}
+</script>
 </body>
 </html>
