@@ -22,7 +22,7 @@ nav#mainmenu ul li a {
 </style>
 <![endif]-->
 <script type="text/javascript" src="js/openclose.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script>
 $(function(){
   $("#header").load("base/header.html");
@@ -86,5 +86,11 @@ $(function(){
 </div>
 <!--/container-->
 
+<script type="text/javascript">
+// 表示の幅で設定・PCはウィンドウサイズを反映 */
+if (OCwindowWidth() < 480) {
+	open_close("newinfo_hdr", "newinfo");
+}
+</script>
 </body>
 </html>
