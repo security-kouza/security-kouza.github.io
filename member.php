@@ -25,9 +25,9 @@ nav#mainmenu ul li a {
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script>
 $(function(){
-  $("#menu").load("base/menu.html");
-  $("#access").load("base/access.html");
-  $("#footer").load("base/footer.html");
+  //$("#menu").load("base/menu.html");
+  //$("#access").load("base/access.html");
+  //$("#footer").load("base/footer.html");
 });
 </script> 
 </head>
@@ -136,15 +136,15 @@ $(function(){
 </div>
 <!--/main-->
 
-<div id="menu"></div>
-<div id="access"></div>
+<?php include("base/menu.html") ?>
+<?php include("base/access.html") ?>
 
 <p id="pagetop"><a href="#">↑ PAGE TOP</a></p>
 
 </div>
 <!--/contents-->
 
-<div id="footer"></div>
+<?php include("base/footer.html") ?>
 
 </div>
 <!--/container-->

@@ -23,13 +23,6 @@ nav#mainmenu ul li a {
 <![endif]-->
 <script type="text/javascript" src="js/openclose.js"></script>
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-<script>
-$(function(){
-  $("#menu").load("base/menu.html");
-  $("#access").load("base/access.html");
-  $("#footer").load("base/footer.html");
-});
-</script> 
 </head>
 
 <body>
@@ -46,43 +39,42 @@ $(function(){
 
 <section>
 
-<h1>お問い合わせ</h1>
+<h1>リンク</h1>
 
-<p><strong class="color1">※本研究室に関するお問い合せは、isec-contact at ai.soc.i.kyoto-u.ac.jpへどうぞ。<br>
-（atを@に変換してください。）</strong></p>
-
-<p>
-<strong class="color1">住所</strong><br>
-〒 606-8501<br>
-京都市左京区吉田本町<br>
-京都大学大学院　情報学研究科<br>
-社会情報学専攻　情報セキュリティ分野<br>
-阿部・ティブシ研究室（連携分野）<br>
-<br>
-<strong class="color1">電話</strong><br>
-075-753-5398<br>
-<br>
-<strong class="color1">地図</strong><br>
-阿部・ティブシ研究室は、総合研究７号館4階401号室（旧工学部10号館4階442号室）です．<br>
-定例研究打ち合わせは、上記401のミーティングスペースで行います．<br>
-（401が使えない場合は、連携教官室（工学部２号館 １１７号室））</p>
-
-<img src="images/honbu.gif" />
-
+<strong class="color1">■教育機関など</strong><br />
+　<a href="http://www.kyoto-u.ac.jp/ja">京都大学<br></a>
+　<a href="http://www.i.kyoto-u.ac.jp">情報学研究科<br></a>
+　<a href="http://www.soc.i.kyoto-u.ac.jp">社会情報学専攻<br></a>
+　<a href="http://www.ai.soc.i.kyoto-u.ac.jp/index_j.html">石田・松原研究室<br></a>
+　<a href="http://lib.i.kyoto-u.ac.jp">情報学研究科図書館<br></a>
+　<a href="http://www.media.kyoto-u.ac.jp/ja">学術情報メディアセンター<br></a>
+<br><strong class="color1">■学会など</strong><br />
+　<a href="http://www.ieice.org/jpn/">電子情報通信学会<br></a>
+　<a href="http://www.ieice.org/~isec/">電子情報通信学会 ISEC研究会<br></a>
+　<a href="https://www.ipsj.or.jp">情報処理学会<br></a>
+　<a href="https://www.iacr.org">IACR<br></a>
+　<a href="https://eprint.iacr.org">ePrint Archive<br></a>
+<br><strong class="color1">■NTT研究所</strong><br />
+　<a href="http://www.ntt.co.jp/sc/index.html">NTT セキュアプラットフォーム研究所<br></a>
+　<a href="http://www.kecl.ntt.co.jp/rps/index.html">NTT コミュニケーション科学基礎研究所<br></a>
+<br><strong class="color1">■各種サービス</strong><br />
+　<a href="http://yougo.ascii.jp/caltar/メインページ">アスキーデジタル用語辞典<br></a>
+　<a href="https://eow.alc.co.jp/">英辞郎 on the Web<br></a>
+　<a href="http://e-words.jp">情報通信辞典e-Words<br></a>
 </section>
 
 </div>
 <!--/main-->
 
-<div id="menu"></div>
-<div id="access"></div>
+<?php include("base/menu.html") ?>
+<?php include("base/access.html") ?>
 
 <p id="pagetop"><a href="#">↑ PAGE TOP</a></p>
 
 </div>
 <!--/contents-->
 
-<div id="footer"></div>
+<?php include("base/footer.html") ?>
 
 </div>
 <!--/container-->
