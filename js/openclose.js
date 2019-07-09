@@ -1,4 +1,8 @@
 /*
+ * ブロック開閉処理
+ * 2015/12/21 ボタン画像の非表示処理を行わない
+ */
+/*
  * Return the classList property of e, if it has one.
  * Otherwise, return an object that simulates the DOMTokenList API for e.
  * The returned object has contains(), add(), remove(), toggle() and toString()
@@ -8,6 +12,7 @@
  * DOMTokenList is not array-like, but has a toArray() method that returns
  * a true-array snapshot of the element's class names.
  */
+
 function classList(e) {
     if (e.classList) return e.classList;   // Return e.classList if it exists
     else return new CSSClassList(e);       // Otherwise try to fake it
@@ -89,12 +94,18 @@ function open_close(hdr, item)
 	var e = document.getElementById(hdr);
 	var e2 = document.getElementById(item);
 	e.addEventListener("click", function() { do_onoff(hdr, item); }, false);
+
+	classList(e).remove('open');
+	classList(e).add('close');
 	if (classList(e).contains('open')) {
+//		e.style.display = '';
 		e2.style.display = '';
 	}
 	if (classList(e).contains('close')) {
+//		e.style.display = '';
 		e2.style.display = 'none';
 	}
+
 }
 function OCisSmartPhone()
 {
