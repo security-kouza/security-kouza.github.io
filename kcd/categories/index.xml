@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Joint Workshop of NTT Labs (Japan) and NTT Research (USA)</title>
+    <link>https://security-kouza.github.io/kcd/categories/</link>
+    <description>Recent content in Categories on Joint Workshop of NTT Labs (Japan) and NTT Research (USA)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://security-kouza.github.io/kcd/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
