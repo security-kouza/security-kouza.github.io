@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joint Workshop of NTT Labs (Japan) and NTT Research (USA)</title>
+    <link>https://security-kouza.github.io/kcd/</link>
+    <description>Recent content on Joint Workshop of NTT Labs (Japan) and NTT Research (USA)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://security-kouza.github.io/kcd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Registration</title>
+      <link>https://security-kouza.github.io/kcd/registration/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://security-kouza.github.io/kcd/registration/</guid>
+      <description> Registration is free, but mandatory. The maximum number of participants is 80.
+To register this workshop, please send the information listed below to the following e-mail address: saho dot uchida dot pn at hco dot ntt dot co dot jp  Name Affiliation  </description>
+    </item>
+    
+    <item>
+      <title>Organizers</title>
+      <link>https://security-kouza.github.io/kcd/organizers/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://security-kouza.github.io/kcd/organizers/</guid>
+      <description> Organizers  Tatsuaki Okamoto  </description>
+    </item>
+    
+    <item>
+      <title>Speakers</title>
+      <link>https://security-kouza.github.io/kcd/speakers/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://security-kouza.github.io/kcd/speakers/</guid>
+      <description> Speakers (tentative)  Brent Waters (NTT Research Inc.) Daniel Wichs (NTT Research Inc.) Aron Laszka (NTT Research Inc.) Shin&amp;rsquo;ichiro Matsuo (NTT Research Inc.) Masayuki Abe (NTT Secure Platform Laboratories)
+(Not confirmed yet, under negotiation) Mehdi Tibouchi (NTT Secure Platform Laboratories)
+(Not confirmed yet, under negotiation) Takashi Yamakawa (NTT Secure Platform Laboratories)
+(Not confirmed yet, under negotiation) Ryo Nishimaki (NTT Secure Platform Laboratories)
+(Not confirmed yet, under negotiation) and more  </description>
+    </item>
+    
+    <item>
+      <title>Venue</title>
+      <link>https://security-kouza.github.io/kcd/venue/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://security-kouza.github.io/kcd/venue/</guid>
+      <description>The venue is Hotel Granvia Kyoto This event will be held in Soushi-room (5F)
+ Access to Hotel Granvia Kyoto Please see here</description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>https://security-kouza.github.io/kcd/schedule/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://security-kouza.github.io/kcd/schedule/</guid>
+      <description>The event schedule on December 13th (tentative)  8:30 Check-in 9:00 - 9:50 TBA by Brent Waters  9:50 - 10:40 TBA  11:00 - 11:50 TBA  11:50 Lunch (on your own)  13:30 - 14:20 TBA  14:20 - 14:50 TBA  15:10 - 15:40 TBA  15:40 - 16:10 TBA  16:30 - 17:10 TBA   Abstract Extracting Randomness from Extractor-Dependent Sources Daniel Wichs (NTT Research Inc.</description>
+    </item>
+    
+  </channel>
+</rss>

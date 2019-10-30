@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Previous-editions on Tokyo Crypto Day</title>
+    <link>https://tokyocryptoday.github.io/previous-editions/</link>
+    <description>Recent content in Previous-editions on Tokyo Crypto Day</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tokyocryptoday.github.io/previous-editions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>July 5th 2019</title>
+      <link>https://tokyocryptoday.github.io/previous-editions/190705/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tokyocryptoday.github.io/previous-editions/190705/</guid>
+      <description>http://www.ntt.co.jp/sc/event_e/event20190705.html
+Program  10:30 - 11:30 CCA Security and Trapdoor Functions via Key-Dependent-Message Security (Takahiro Matsuda) 12:45 - 13:45 Multi-Client Functional Encryption for Inner Products (Romain Gay) 14:00 - 15:00 Attribute Based Encryption (and more) for Nondeterministic Finite Automata from LWE (Shota Yamada) 15:10 - 16:10 Unbounded Dynamic Predicate Compositions in Attribute-based Encryption (Nuttapong Attrapadung)  Abstracts CCA Security and Trapdoor Functions via Key-Dependent-Message Security Takahiro Matsuda (AIST)
+We study the relationship among public-key encryption (PKE) satisfying indistinguishability against chosen plaintext attacks (IND-CPA security), that against chosen ciphertext attacks (IND-CCA security), and trapdoor functions (TDF).</description>
+    </item>
+    
+    <item>
+      <title>March 8th 2019</title>
+      <link>https://tokyocryptoday.github.io/previous-editions/190308/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tokyocryptoday.github.io/previous-editions/190308/</guid>
+      <description>http://www.ntt.co.jp/sc/event_e/event20190308.html
+Program  Collusion Resistant Traitor Tracing from Learning with Errors (Rishab Goyal) Fine-grained quantum computational supremacy (Tomoyuki Morimae) Non-Malleable Codes for Decision Trees (and more) (Marshall Ball) Finding Collisions in a Quantum World: Quantum Black-Box Separation of Collision-Resistance and One-Wayness (Akinori Hosoyamada)  Abstracts Collusion Resistant Traitor Tracing from Learning with Errors Rishab Goyal (UT Austin)
+In this work we provide a traitor tracing scheme with ciphertexts that grow polynomially in log(N) where N is the number of users and prove it secure under the Learning with Errors (LWE) assumption.</description>
+    </item>
+    
+    <item>
+      <title>October 26th 2018</title>
+      <link>https://tokyocryptoday.github.io/previous-editions/181026/</link>
+      <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tokyocryptoday.github.io/previous-editions/181026/</guid>
+      <description>http://www.ntt.co.jp/sc/event_e/event20181026.html
+Program  New Techniques for obtaining Adaptive Security in Garbling Schemes (Akshayaram Srinivasan) Secret Sharing and CDS (Tianren Liu) New Bleichenbacher Records: Fault Attacks on qDSA Signatures (Akira Takahashi)  Abstracts New Techniques for obtaining Adaptive Security in Garbling Schemes Akshayaram Srinivasan (UC Berkeley)
+Garbled circuits are fundamental cryptographic primitives. They have diverse applications such as designing secure multiparty computation protocols, in parallel cryptography, in constructing program obfuscation and more recently in constructing IBE schemes without pairings.</description>
+    </item>
+    
+    <item>
+      <title>May 25th 2018</title>
+      <link>https://tokyocryptoday.github.io/previous-editions/180525/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tokyocryptoday.github.io/previous-editions/180525/</guid>
+      <description>Program  Forgery and Impersonation Attacks against of LINE&amp;rsquo;s End-to-End Encryption Schemes (Kazuhiko Minematsu) Count-then-Permute: a Precision-free Alternative to Inversion Sampling (Kentarou Sasaki) Improved (Almost) Tightly-Secure Structure-Preserving Signatures (Miyako Ohkubo)  Abstracts Forgery and Impersonation Attacks against of LINE&amp;rsquo;s End-to-End Encryption Schemes Kazuhiko Minematsu (NEC)
+LINE is a mobile messaging application quite popular in Japan and several other east Asian countries. In this talk, we study the security of LINE&amp;rsquo;s End-to-End Encryption (E2EE) schemes, called Letter Sealing, by investigating the specifications described in the whitepaper published by the developer (the LINE corporation).</description>
+    </item>
+    
+    <item>
+      <title>March 2nd 2018</title>
+      <link>https://tokyocryptoday.github.io/previous-editions/180302/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tokyocryptoday.github.io/previous-editions/180302/</guid>
+      <description>Program  Encoding Predicates by Arithmetic Circuits and Its Applications (Shuich Katsumata) Threshold Cryptosystems From Threshold Fully Homomorphic Encryption (Sam Kim) Notes On GGH13 Without The Presence Of Ideals (Alex Davidson) Constrained PRF for NC1 in Traditional Groups (Takashi Yamakawa)  Abstracts Encoding Predicates by Arithmetic Circuits and Its Applications Shuich Katsumata (The University of Tokyo)
+Predicates are used in cryptography as a fundamental tool to control the disclosure of secrets.</description>
+    </item>
+    
+    <item>
+      <title>October 20th 2017</title>
+      <link>https://tokyocryptoday.github.io/previous-editions/171020/</link>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tokyocryptoday.github.io/previous-editions/171020/</guid>
+      <description>Program  A Unified Approach to Constructing Black-box UC Protocols in Trusted Setup Models (Susumu Kiyoshima) Asymptotically Compact Adaptively Secure Lattice IBEs and Verifiable Random Functions via Generalized Partitioning Techniques (Shota Yamada) Side-Channel Attacks on BLISS Lattice-Based Signatures (Mehdi Tibouchi) Secure AES computation comparable to local AES computation (Ryo Kikuchi)  Abstracts A Unified Approach to Constructing Black-box UC Protocols in Trusted Setup Models Susumu Kiyoshima (NTT Secure Platform Laboratories)</description>
+    </item>
+    
+    <item>
+      <title>June 2nd 2017</title>
+      <link>https://tokyocryptoday.github.io/previous-editions/170602/</link>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tokyocryptoday.github.io/previous-editions/170602/</guid>
+      <description>Program  From Single-Key to Collusion-Resistant Secret-Key Functional Encryption by Leveraging Succinctness (Fuyuki Kitagawa) Small CRT-Exponent RSA Revisited (Atsushi Takayasu) Privacy-Preserving Aggregation of Time-Series Data with Public Verifiability from Simple Assumptions (Keita Emura)  Abstracts From Single-Key to Collusion-Resistant Secret-Key Functional Encryption by Leveraging Succinctness Fuyuki Kitagawa (Tokyo Tech)
+We show how to construct a secret-key functional encryption (SKFE) scheme that supports unbounded polynomially many functional decryption keys solely from an SKFE scheme that supports only one functional decryption key.</description>
+    </item>
+    
+  </channel>
+</rss>
