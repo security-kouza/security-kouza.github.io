@@ -142,19 +142,53 @@
 <h1 id="the-event-schedule-on-december-13th-tentative">The event schedule on December 13th (tentative)</h1>
 
 <ul>
-<li><font size="5">8:30 Check-in</font></li>
-<li><font size="5">9:00 - 9:50 <strong>TBA</strong> by Brent Waters </font></li>
-<li><font size="5">9:50 - 10:40  <strong>TBA</strong> </font></li>
-<li><font size="5">11:00 - 11:50  <strong>TBA</strong> </font></li>
-<li><font size="5">11:50  Lunch (on your own) </font></li>
-<li><font size="5">13:30 - 14:20 <strong>TBA</strong> </font></li>
-<li><font size="5">14:20 - 14:50 <strong>TBA</strong> </font></li>
-<li><font size="5">15:10 - 15:40 <strong>TBA</strong> </font></li>
-<li><font size="5">15:40 - 16:10 <strong>TBA</strong> </font></li>
-<li><font size="5">16:30 - 17:10 <strong>TBA</strong> </font></li>
+<li><font size="5">8:30</font> <font size="3">Check-in</font></li>
+<li><font size="5">9:00 - 9:50</font> <font size="3"><strong>TBA</strong></font> by Brent Waters </font></li>
+<li><font size="5">9:50 - 10:40</font>  <font size="3"><strong>TBA</strong></font> by Mehdi Tibouchi </font></li>
+<li><font size="5">11:00 - 11:30</font> <font size="3"><strong>On Black-Box Extensions of Non-Interactive Zero-Knowledge Arguments</strong></font> by Masayuki Abe</font></li>
+<li><font size="5">11:30 - 12:00</font> <font size="3"><strong>Compact NIZKs from Standard Assumptions on Bilinear Maps</strong></font> by Ryo Nishimaki </font></li>
+<li><font size="5">12:00  Lunch (on your own) </font></li>
+<li><font size="5">13:30 - 14:20</font> <font size="3"><strong>Extracting Randomness from Extractor-Dependent Sources</strong></font> by Daniel Wichs</font></li>
+<li><font size="5">14:20 - 15:10</font> <font size="3"><strong>Finding Collisions in a Quantum World: Quantum Black-Box Separation of Collision-Resistance and One-Wayness</strong></font> by Takashi Yamakawa </font></li>
+<li><font size="5">15:30 - 16:00</font>  <font size="3"><strong>TBA</strong></font> by Aron Laszka </font></li>
+<li><font size="5">16:00 - 16:30</font>  <font size="3"><strong>TBA</strong></font> by Shin&rsquo;ichiro Matsuo</font></li>
+<li><font size="5">16:40 - 16:55</font> <font size="3"><strong>Publicly Verifiable MPC and Applications</strong></font> by Bernardo David</font></li>
+<li><font size="5">16:55 - 17:10</font> <font size="3"><strong>TBA</strong></font> by Jixain Pan </font></li>
 </ul>
 
 <h1 id="abstract">Abstract</h1>
+
+<h3 id="tba">TBA</h3>
+
+<p><strong>Brent Waters</strong> (NTT Research Inc.)</p>
+
+<p>Abstract: TBA</p>
+
+<h3 id="tba-1">TBA</h3>
+
+<p><strong>Mehdi Tibouchi</strong> (NTT Secure Platform Laboratories)</p>
+
+<p>Abstract: TBA</p>
+
+<h3 id="on-black-box-extensions-of-non-interactive-zero-knowledge-arguments">On Black-Box Extensions of Non-Interactive Zero-Knowledge Arguments</h3>
+
+<p><strong>Masayuki Abe</strong> (NTT Secure Platform Laboratories)</p>
+
+<p>Abstract: Highly efficient non-interactive zero-knowledge arguments (NIZK) are often constructed for limited languages and it is not known how to extend them to cover wider classes of languages in general. In this talk we explore black-box language extensions for conjunctive and disjunctive relations. Namely, we study about building a NIZK system for L1 # L2 for logical operator # being AND or OR based on NIZK systems for languages L1 and L2. While the conjunctive extension of NIZKs is straightforward by simply executing the given NIZKs in parallel, it is not known how disjunctive extensions could be achieved in a black-box manner. Besides, observe that the simple conjunctive extension does not work in the case of simulation-sound NIZKs (SS-NIZKs), as pointed out by Sahai (Sahai, FOCS 1999). Our main contribution is an impossibility result that negates the existence of the above extensions and implies other non-trivial separations among NIZKs, SS-NIZKs, and labelled SS-NIZKs. Motivated by the difficulty of such transformations, we additionally present an efficient construction of signature schemes based on unbounded simulation-sound NIZKs (USS-NIZKs) for any language without language extensions.</p>
+
+<p>Joint work with Miguel Ambrona and Miyako Ohkubo</p>
+
+<h3 id="compact-nizks-from-standard-assumptions-on-bilinear-maps">Compact NIZKs from Standard Assumptions on Bilinear Maps</h3>
+
+<p><strong>Ryo Nishimaki</strong> (NTT Secure Platform Laboratories)</p>
+
+<p>Abstract: A non-interactive zero-knowledge (NIZK) protocol enables a prover to convince a verifier of the truth of a statement without leaking any other information by sending a single message. The main focus of this work is on exploring short pairing-based NIZKs for all NP languages based on standard assumptions. In this regime, the seminal work of Groth, Ostrovsky, and Sahai (J.ACM&rsquo;12) (GOS-NIZK) is still considered to be the state-of-the-art. Although fairly efficient, one drawback of GOS-NIZK is that the proof size is <strong>multiplicative</strong> in the circuit size computing the NP relation. That is, the proof size grows by $O(|C|k)$, where $C$ is the circuit for the NP relation and $k$ is the security parameter. By now, there have been numerous follow-up works focusing on shortening the proof size of pairing-based NIZKs, however, thus far, all works come at the cost of relying either on a non-standard knowledge-type assumption or a non-static $q$-type assumption. Specifically, improving the proof size of the original GOS-NIZK under the same standard assumption has remained as an open problem.</p>
+
+<p>Our main result is a construction of a pairing-based NIZK for all of NP whose proof size is <strong>additive</strong> in $|C|$, that is, the proof size only grows by $|C| + poly(k)$, based on the decisional linear (DLIN) assumption. Since the DLIN assumption is the same assumption underlying GOS-NIZK, our NIZK is a strict improvement on their proof size.</p>
+
+<p>The main building block for all of our NIZKs is a constrained signature scheme with <strong>decomposable online-offline efficiency</strong>. This is a property which we newly introduce in this paper and construct from the DLIN assumption. We believe this construction is of an independent interest.</p>
+
+<p>Joint work with Shuichi Katsumata, Shota Yamada, and Takshi Yamakawa</p>
 
 <h3 id="extracting-randomness-from-extractor-dependent-sources">Extracting Randomness from Extractor-Dependent Sources</h3>
 
@@ -162,9 +196,41 @@
 
 <p>Abstract: We revisit the well-studied problem of extracting nearly uniform randomness from an arbitrary source of sufficient min-entropy. Strong seeded extractors solve this problem by relying on a public random seed, which is unknown to the source. Here, we consider a setting where the seed is reused over time  and the source may depend on prior calls to the extractor with the same seed. Can we still extract nearly uniform randomness? In more detail, we assume the seed is chosen randomly, but the source can make arbitrary oracle queries to the extractor with the given seed before outputting a sample. We require that the sample has entropy and differs from any of the previously queried values. The extracted output should look uniform even to a distinguisher that gets the seed. We  provide constructions and lower bounds for extractors in this setting.</p>
 
-<p>joint work with Yevgeniy Dodis and Vinod Vaikuntanathan</p>
+<p>Joint work with Yevgeniy Dodis and Vinod Vaikuntanathan</p>
 
-<h3 id="and-more-tba">and more (TBA)</h3>
+<h3 id="finding-collisions-in-a-quantum-world-quantum-black-box-separation-of-collision-resistance-and-one-wayness">Finding Collisions in a Quantum World: Quantum Black-Box Separation of Collision-Resistance and One-Wayness</h3>
+
+<p><strong>Takashi Yamakawa</strong> (NTT Secure Platform Laboratories)</p>
+
+<p>Abstract: Since the celebrated work of Impagliazzo and Rudich (STOC 1989), a number of black-box impossibility results have been established. However, these works only ruled out classical black-box reductions among cryptographic primitives. Therefore it may be possible to overcome these impossibility results by using quantum reductions. To exclude such a possibility, we have to extend these impossibility results to the quantum setting. In this paper, we initiate the study of black-box impossibility in the quantum setting. We first formalize a quantum counterpart of fully-black-box reduction following the formalization by Reingold, Trevisan and Vadhan (TCC 2004). Then we prove that there is no quantum fully-black-box reduction from collision-resistant hash functions to one-way permutations (or even trapdoor permutations). We take both of classical and quantum implementations of primitives into account. This is an extension to the quantum setting of the work of Simon (Eurocrypt 1998) who showed a similar result in the classical setting.</p>
+
+<p>Joint work with Akinori Hosoyamada</p>
+
+<h3 id="tba-2">TBA</h3>
+
+<p><strong>Aron Laszka</strong> (NTT Research Inc.)</p>
+
+<p>Abstract: TBA</p>
+
+<h3 id="tba-3">TBA</h3>
+
+<p><strong>Shin&rsquo;ichiro Matsuo</strong> (NTT Research Inc.)</p>
+
+<p>Abstract: TBA</p>
+
+<h3 id="publicly-verifiable-mpc-and-applications">Publicly Verifiable MPC and Applications</h3>
+
+<p><strong>Bernardo David</strong> (IT University of Copenhagen)</p>
+
+<p>Abstract: Multiparty computation (MPC) allows mutually distrustful parties to perform computation on private inputs without revealing such inputs to each other. Additionally, some flavours of MPC allow the computing parties to either be sure that the computation was successfully completed or that a given party misbehaved. However, these properties usually do not extend to external third parties who wish to publicly verify that a computation succeed or that a party cheated without knowing the inputs. In this talk, we give an overview of two upcoming results on constructing efficient publicly verifiable MPC with cheater identification and compiling certain classes of universally composable (UC) protocols into protocols with public verifiability. Our constructions build on recent results on UC homomorphic commitments and other building blocks that can be efficiently realised. In order to prove our constructions secure, we put forth new notions of UC public verifiability that might be of independent interest. We also discuss applications of our results to constructing financially incentivised MPC and privacy preserving smart contracts, where cheating parties are financially punished and the MPC output determines the distribution of funds.</p>
+
+<p>Based on joint work with Carsten Baum and Rafael Dowsley.</p>
+
+<h3 id="tba-4">TBA</h3>
+
+<p><strong>Jiaxin Pan</strong> (NTNU)</p>
+
+<p>Abstract: TBA</p>
 </div>
 
     

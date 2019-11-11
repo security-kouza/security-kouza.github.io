@@ -27,7 +27,7 @@ To register this workshop, please send the information listed below to the follo
       <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://security-kouza.github.io/kcd/organizers/</guid>
-      <description> Organizers  Tatsuaki Okamoto  </description>
+      <description> Tatsuaki Okamoto Masayuki Abe Ryo Nishimaki  </description>
     </item>
     
     <item>
@@ -36,11 +36,7 @@ To register this workshop, please send the information listed below to the follo
       <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://security-kouza.github.io/kcd/speakers/</guid>
-      <description> Speakers (tentative)  Brent Waters (NTT Research Inc.) Daniel Wichs (NTT Research Inc.) Aron Laszka (NTT Research Inc.) Shin&amp;rsquo;ichiro Matsuo (NTT Research Inc.) Masayuki Abe (NTT Secure Platform Laboratories)
-(Not confirmed yet, under negotiation) Mehdi Tibouchi (NTT Secure Platform Laboratories)
-(Not confirmed yet, under negotiation) Takashi Yamakawa (NTT Secure Platform Laboratories)
-(Not confirmed yet, under negotiation) Ryo Nishimaki (NTT Secure Platform Laboratories)
-(Not confirmed yet, under negotiation) and more  </description>
+      <description> Brent Waters (NTT Research Inc.) Daniel Wichs (NTT Research Inc.) Aron Laszka (NTT Research Inc.) Shin&amp;rsquo;ichiro Matsuo (NTT Research Inc.) Masayuki Abe (NTT Secure Platform Laboratories) Mehdi Tibouchi (NTT Secure Platform Laboratories) Takashi Yamakawa (NTT Secure Platform Laboratories) Ryo Nishimaki (NTT Secure Platform Laboratories) Bernardo David (IT University of Copenhagen) (formerly research intern at NTT Secure Platform Laboratories) Jiaxin Pan (NTNU) (formerly research intern at NTT Secure Platform Laboratories)  </description>
     </item>
     
     <item>
@@ -49,8 +45,8 @@ To register this workshop, please send the information listed below to the follo
       <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://security-kouza.github.io/kcd/venue/</guid>
-      <description>The venue is Hotel Granvia Kyoto This event will be held in Soushi-room (5F)
- Access to Hotel Granvia Kyoto Please see here</description>
+      <description>The venue is Hotel Granvia Kyoto in Kyoto This event will be held in Soushi-room (5F)
+ Access to Hotel Granvia Kyoto It takes about 1 hour by train (JR) from Kobe, where Asiacrypt 2019 is held. Please see also here</description>
     </item>
     
     <item>
@@ -59,7 +55,7 @@ To register this workshop, please send the information listed below to the follo
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://security-kouza.github.io/kcd/schedule/</guid>
-      <description>The event schedule on December 13th (tentative)  8:30 Check-in 9:00 - 9:50 TBA by Brent Waters  9:50 - 10:40 TBA  11:00 - 11:50 TBA  11:50 Lunch (on your own)  13:30 - 14:20 TBA  14:20 - 14:50 TBA  15:10 - 15:40 TBA  15:40 - 16:10 TBA  16:30 - 17:10 TBA   Abstract Extracting Randomness from Extractor-Dependent Sources Daniel Wichs (NTT Research Inc.</description>
+      <description>The event schedule on December 13th (tentative)  8:30 Check-in 9:00 - 9:50 TBA by Brent Waters  9:50 - 10:40 TBA by Mehdi Tibouchi  11:00 - 11:30 On Black-Box Extensions of Non-Interactive Zero-Knowledge Arguments by Masayuki Abe 11:30 - 12:00 Compact NIZKs from Standard Assumptions on Bilinear Maps by Ryo Nishimaki  12:00 Lunch (on your own)  13:30 - 14:20 Extracting Randomness from Extractor-Dependent Sources by Daniel Wichs 14:20 - 15:10 Finding Collisions in a Quantum World: Quantum Black-Box Separation of Collision-Resistance and One-Wayness by Takashi Yamakawa  15:30 - 16:00 TBA by Aron Laszka  16:00 - 16:30 TBA by Shin&amp;rsquo;ichiro Matsuo 16:40 - 16:55 Publicly Verifiable MPC and Applications by Bernardo David 16:55 - 17:10 TBA by Jixain Pan   Abstract TBA Brent Waters (NTT Research Inc.</description>
     </item>
     
   </channel>
