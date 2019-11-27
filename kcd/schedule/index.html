@@ -139,13 +139,13 @@
 
     <br> <div class="text-justify">
 
-<h1 id="the-event-schedule-on-december-13th-tentative">The event schedule on December 13th (tentative)</h1>
+<h1 id="the-event-schedule-on-december-13th">The event schedule on December 13th</h1>
 
 <ul>
 <li><font size="4">8:30 - 8:55</font> <font size="3">Check-in</font></li>
 <li><font size="4">8:55 - 9:00</font> <font size="3">Opening remarks</font> by Tatsuaki Okamoto</li>
 <li><font size="4">9:00 - 9:50</font> <font size="3"><strong>Tracing in Encryption Systems</strong></font> by Brent Waters</li>
-<li><font size="4">9:50 - 10:40</font>  <font size="3"><strong>TBA</strong></font> by Mehdi Tibouchi</li>
+<li><font size="4">9:50 - 10:40</font>  <font size="3"><strong>Securely implementing Gaussian distributions in lattice-based signatures</strong></font> by Mehdi Tibouchi</li>
 <li><font size="4">10:40 - 11:00 Break </font></li>
 <li><font size="4">11:00 - 11:30</font> <font size="3"><strong>On Black-Box Extensions of Non-Interactive Zero-Knowledge Arguments</strong></font> by Masayuki Abe</li>
 <li><font size="4">11:30 - 12:00</font> <font size="3"><strong>Compact NIZKs from Standard Assumptions on Bilinear Maps</strong></font> by Ryo Nishimaki</li>
@@ -153,8 +153,8 @@
 <li><font size="4">13:30 - 14:20</font> <font size="3"><strong>Extracting Randomness from Extractor-Dependent Sources</strong></font> by Daniel Wichs</li>
 <li><font size="4">14:20 - 15:10</font> <font size="3"><strong>Finding Collisions in a Quantum World: Quantum Black-Box Separation of Collision-Resistance and One-Wayness</strong></font> by Takashi Yamakawa</li>
 <li><font size="4">15:10 - 15:30 Break </font></li>
-<li><font size="4">15:30 - 16:00</font>  <font size="3"><strong>Blockchain-based Smart Contracts: Security Challenges and Correct-by-Design Development</strong></font> by Aron Laszka</li>
-<li><font size="4">16:00 - 16:30</font>  <font size="3"><strong>TBA</strong></font> by Shin&rsquo;ichiro Matsuo</li>
+<li><font size="4">15:30 - 16:00</font>  <font size="3"><strong>Ingredients for securing blockchain and countermeasure against compromise of underlying cryptography</strong></font> by Shin&rsquo;ichiro Matsuo</li>
+<li><font size="4">16:00 - 16:30</font>  <font size="3"><strong>Blockchain-based Smart Contracts: Security Challenges and Correct-by-Design Development</strong></font> by Aron Laszka</li>
 <li><font size="4">16:30 - 16:40 Short break</font></li>
 <li><font size="4">16:40 - 16:55</font> <font size="3"><strong>Publicly Verifiable MPC and Applications</strong></font> by Bernardo David</li>
 <li><font size="4">16:55 - 17:10</font> <font size="3"><strong>HIBE with Tight Security</strong></font> by Jixain Pan</li>
@@ -172,11 +172,26 @@ resistant traitor tracing with polynomial in lg(N), \lambda size
 ciphertexts for N users and security parameter \lambda. Then I will
 talk about some recent and upcoming results in the area.</p>
 
-<h3 id="tba">TBA</h3>
+<h3 id="securely-implementing-gaussian-distributions-in-lattice-based-signatures">Securely implementing Gaussian distributions in lattice-based signatures</h3>
 
 <p><strong>Mehdi Tibouchi</strong> (NTT Secure Platform Laboratories)</p>
 
-<p>Abstract: TBA</p>
+<p>Abstract: Candidates for lattice-based signature schemes in the NIST postquantum
+standardization process have mostly avoided discrete Gaussian
+distributions (preferring uniform noise instead), despite the better
+theoretical behavior of Gaussians and the better parameters they allow.
+This is mostly due to concerns regarding the difficulty of implementing
+noise sampling and rejection sampling securely when using Gaussians.</p>
+
+<p>In this talk, we discuss previous attacks on insecure implementations of
+Gaussian-based signature schemes, and describe new techniques to overcome
+these challenges.</p>
+
+<p>Most of the talk will be based on joint work with Gilles Barthe, Sonia
+Belaïd, Thomas Espitau, Pierre-Alain Fouque and Mélissa Rossi, addressing
+the case of signatures based on the Fiat–Shamir transform. If time
+permits, we will also mention recent results with Alexandre Wallet and
+others regarding the hash-and-sign setting.</p>
 
 <h3 id="on-black-box-extensions-of-non-interactive-zero-knowledge-arguments">On Black-Box Extensions of Non-Interactive Zero-Knowledge Arguments</h3>
 
@@ -214,6 +229,13 @@ talk about some recent and upcoming results in the area.</p>
 
 <p>Joint work with Akinori Hosoyamada</p>
 
+<h3 id="ingredients-for-securing-blockchain-and-countermeasure-against-compromise-of-underlying-cryptography">Ingredients for securing blockchain and countermeasure against compromise of underlying cryptography</h3>
+
+<p><strong>Shin&rsquo;ichiro Matsuo</strong> (NTT Research Inc.)</p>
+
+<p>Abstract:
+Blockchain technology is expected to provide advanced level of distributed trust. It is basically a kind of cryptographic protocol, but the security analysis of this technology is more complicated than existing cryptographic protocol. For example, game theory and economic incentive is one of the key part in securing blockchain technology. In this talk, we explore how ingredients of blockchain technology help the security of blockchain, then how we can have relief from insecurity caused by compromise of underlying cryptography.</p>
+
 <h3 id="blockchain-based-smart-contracts-security-challenges-and-correct-by-design-development">Blockchain-based Smart Contracts: Security Challenges and Correct-by-Design Development</h3>
 
 <p><strong>Aron Laszka</strong> (NTT Research Inc.)</p>
@@ -221,12 +243,6 @@ talk about some recent and upcoming results in the area.</p>
 <p>Abstract: The adoption of blockchain based distributed ledgers is growing fast due to their ability to provide reliability, integrity, and auditability without trusted entities. One of the key capabilities of these emerging platforms is the ability to create self-enforcing smart contracts. However, the development of smart contracts has proven to be error-prone in practice, and as a result, contracts deployed on public platforms are often riddled with security vulnerabilities. This issue is exacerbated by the design of these platforms, which forbids updating contract code and rolling back malicious transactions. In this talk, we first give an overview of key security challenges in smart contract development and existing tools for vulnerability discovery and verification. Then, we introduce VeriSolid, a novel framework for the correct-by-design development of smart contracts. VeriSolid enables developer to specify contracts using a transition-system based model with rigorous operational semantics, to formally verify the specified contracts, and to generate contract code that can be deployed on the Ethereum blockchain platform. Our model-based approach allows developers to reason about contract behavior at a high level of abstraction, which enables the correct-by-design development of smart contracts.</p>
 
 <p>Based on joint work with Anastasia Mavridou, Emmanouela Stachtiari, Keerthi Nelaturu, and Andreas Veneris.</p>
-
-<h3 id="tba-1">TBA</h3>
-
-<p><strong>Shin&rsquo;ichiro Matsuo</strong> (NTT Research Inc.)</p>
-
-<p>Abstract: TBA</p>
 
 <h3 id="publicly-verifiable-mpc-and-applications">Publicly Verifiable MPC and Applications</h3>
 
