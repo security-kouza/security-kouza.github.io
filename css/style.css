@@ -494,6 +494,7 @@ h2 span.option2 {
 .mb15,.mb1em {margin-bottom: 15px;}
 .clear {clear: both;}
 ul.disc {padding: 0em 25px 1em;list-style: disc;}
+.spaced-list li {margin-bottom: 30px;}
 .color1 {color: #1a4ef7;}
 .pr {font-size: 10px;}
 .wl {width: 96%;}
