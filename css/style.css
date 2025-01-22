@@ -747,5 +747,27 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 	right: 15px;	/*右から15pxの場所に配置*/
 }
 
+}
 
+
+/*画像の横並び表示
+---------------------------------------------------------------------------*/
+.gallery {
+	display: flex;
+	justify-content: space-around; /* 画像の間隔を調整 */
+	flex-wrap: wrap; /* 必要に応じて折り返し */
+}
+.image-item {
+	text-align: center;
+	margin: 10px;
+}
+.image-item img {
+	max-width: 300px; /* 画像の最大幅を指定 */
+	height: auto; /* アスペクト比を保つ */
+	border: 1px solid #ccc; /* 枠線を追加（オプション） */
+}
+.image-item p {
+	margin-top: 5px;
+	font-size: 14px;
+	color: #555;
 }
