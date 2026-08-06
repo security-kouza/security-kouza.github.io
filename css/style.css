@@ -761,13 +761,33 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 	text-align: center;
 	margin: 10px;
 }
-.image-item img {
-	max-width: 300px; /* 画像の最大幅を指定 */
-	height: auto; /* アスペクト比を保つ */
-	border: 1px solid #ccc; /* 枠線を追加（オプション） */
+.gallery img, .row-gallery img {
+	max-width: 450px;
+	height: auto;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	margin-bottom: 2em;
 }
 .image-item p {
 	margin-top: 5px;
 	font-size: 14px;
 	color: #555;
+}
+
+.row-gallery {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	gap: 20px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+.row-gallery img {
+	flex: 0 0 auto;
+	width: min(450px, 80vw);
+	height: 260px;
+	max-width: none;
+	object-fit: cover;
 }
